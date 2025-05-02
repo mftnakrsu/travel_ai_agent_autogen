@@ -4,6 +4,9 @@ A multi-agent travel planning system built using the **Autogen** framework and *
 
 ---
 
+<img width="1200" alt="Screenshot 2025-05-02 at 16 35 56" src="https://github.com/user-attachments/assets/768dc658-8ca7-4f54-992d-5e037b5bcf09" />
+
+
 ## Agent Architecture
 
 | Agent                  | Role & Responsibilities |
@@ -76,6 +79,51 @@ Visit: [http://localhost:8501](http://localhost:8501)
 ```
 
 ---
+
+
+###  Usage
+
+#### 1. **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/travel-planner-ai.git
+cd travel-planner-ai
+```
+
+#### 2. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 3. **Set Environment Variables**
+
+Create a `.env` file in the root directory and add:
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+TAVILY_API_KEY=your_tavily_api_key
+```
+
+> 💡 *Note: You can replace Tavily with Bing if needed (requires Bing API integration).*
+
+#### 4. **Run the App Locally**
+
+```bash
+streamlit run main.py
+```
+
+#### 5. **Using Docker (Optional)**
+
+```bash
+docker build -t travel-planner .
+docker run -p 8501:8501 travel-planner
+```
+
+Then open [http://localhost:8501](http://localhost:8501) in your browser.
+
+---
+
 
 ## Completed Capabilities
 
