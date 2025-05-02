@@ -135,7 +135,7 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-### 🛠 Challenges & To-Do 
+### Challenges & To-Do 
 
 * [ ] **Align Tool Usage with LLM Responses**
   Although `Tool.py` works, integrating tool outputs with LLM-generated replies proved difficult.
