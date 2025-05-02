@@ -110,7 +110,7 @@ TAVILY_API_KEY=your_tavily_api_key
 #### 4. **Run the App Locally**
 
 ```bash
-streamlit run main.py
+streamlit run main3.py
 ```
 
 #### 5. **Using Docker (Optional)**
